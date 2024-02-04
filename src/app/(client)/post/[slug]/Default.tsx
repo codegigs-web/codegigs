@@ -5,8 +5,8 @@ import { parseISO, format } from "date-fns";
 import { urlForImage } from "@/sanity/lib/image";
 import Container from "@/components/Container";
 import CategoryLabel from "@/components/blog/Category";
-import { PortableText } from "@portabletext/react";
 import AuthorCard from "@/components/blog/AuthorCard";
+import { PortableText } from "@/sanity/Plugins/PortableText";
 
 
 export default function PostPage(props: any) {
